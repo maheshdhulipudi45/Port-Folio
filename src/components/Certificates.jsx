@@ -52,7 +52,7 @@ const Certificates = ({ visible = true }) => {
               className="w-full h-full rounded-2xl shadow-lg transition-transform duration-700 transform-style-3d group-hover:rotate-y-180"
             >
               {/* Front Face with Glassmorphism Effect */}
-              <div className="absolute inset-0 backface-hidden p-6 rounded-2xl flex flex-col justify-center items-center text-center backdrop-blur-sm bg-white/5 border border-white/10 group-hover:border-purple-400 group-hover:shadow-2xl  transition-all duration-300">
+              <div className="absolute inset-0 backface-hidden p-6 rounded-2xl flex flex-col justify-center items-center text-center backdrop-blur-sm bg-white/5 border border-white/10 group-hover:border-purple-400 group-hover:shadow-2xl transition-all duration-300">
                 <FaAward className="text-cyan-400 text-4xl mb-4" />
                 <h3 className="text-lg font-semibold mb-2">{cert.title}</h3>
                 <p className="text-gray-300 text-sm">{cert.issuer}</p>

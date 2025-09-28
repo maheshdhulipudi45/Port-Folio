@@ -47,7 +47,7 @@ const Education = ({ visible = true }) => (
           className="mb-8 sm:mb-10 md:mb-12 relative pl-8 sm:pl-12 md:pl-16"
         >
           {/* Circle marker */}
-          <div className="absolute top-1/2 left-3 sm:left-6 md:left-12 transform -translate-x-1/2 -translate-y-1/2 w-4 sm:w-5 h-4 sm:h-5 bg-gradient-to-r from-purple-400 to-cyan-400 rounded-full border-4 border-[#0d0d16] shadow-lg"></div>
+          <div className="absolute top-1/2 left-3 sm:left-6 md:left-12 transform -translate-x-1/2 -translate-y-1/2 w-4 sm:w-5 h-4 sm:h-5  bg-gradient-to-r from-purple-400 to-cyan-400 rounded-full border-4 border-[#0d0d16] shadow-lg"></div>
 
           {/* Card */}
           <div className="relative bg-[#1a142b] p-5 sm:p-6 md:p-8 rounded-2xl shadow-xl hover:scale-[1.02] transition-transform duration-300 border border-[#2f1860] ml-2 sm:ml-3 md:ml-4">

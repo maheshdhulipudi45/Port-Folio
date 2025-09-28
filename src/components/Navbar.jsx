@@ -9,9 +9,9 @@ const Navbar = ({ scrollToSection }) => {
 
   return (
     <header className="flex justify-between items-center p-5 fixed w-full z-50 bg-[#0d0d16] bg-opacity-95">
-      <h1 className="  text-2xl font-bold cursor-pointer text-white " onClick={() => scrollToSection('hero')}>
-        MD
-      </h1>
+      <div className="w-11 h-10 md:w-12 md:h-12 bg-[#2f1860] rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 cursor-pointer">
+          <span className="text-lg md:text-xl font-bold ">MD</span>
+        </div>
 
       <button className="text-white text-2xl md:hidden" onClick={toggleMenu}>
         {menuOpen ? <FaTimes /> : <FaBars />}

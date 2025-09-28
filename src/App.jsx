@@ -250,10 +250,10 @@
 //       `}</style>
       
 //       {/* ==================== Navigation Bar & Mobile Menu ==================== */}
-//       <nav className={`fixed top-0 w-full p-6 flex justify-between items-center z-20 transition-colors duration-500 ${isScrolled ? 'bg-[#0d0d16] bg-opacity-95 shadow-lg' : 'bg-transparent'}`}>
-//         <div className="w-10 h-10 md:w-12 md:h-12 bg-[#32bee9] rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 cursor-pointer">
-//           <span className="text-lg md:text-xl font-bold ">MD</span>
-//         </div>
+      // <nav className={`fixed top-0 w-full p-6 flex justify-between items-center z-20 transition-colors duration-500 ${isScrolled ? 'bg-[#0d0d16] bg-opacity-95 shadow-lg' : 'bg-transparent'}`}>
+      //   <div className="w-10 h-10 md:w-12 md:h-12 bg-[#32bee9] rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 cursor-pointer">
+      //     <span className="text-lg md:text-xl font-bold ">MD</span>
+      //   </div>
 
 //         {/* Desktop Navigation */}
 //         <div className="hidden md:flex space-x-8 text-lg font-medium">

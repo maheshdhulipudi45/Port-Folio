@@ -39,7 +39,7 @@ const Hero = () => {
 
         {/* Description */}
         <p className="max-w-xs sm:max-w-md mx-auto text-sm md:text-base text-gray-400 leading-relaxed mb-8 animate-fadeInUp delay-400">
-          MCA graduate passionate about building scalable software solutions with MERN stack, Java, and Python. Experienced in creating responsive web applications and solving complex problems.
+          MCA graduate passionate about building scalable software solutions with MERN Stack. Experienced in creating responsive web applications and solving complex problems.
         </p>
 
         {/* Action Buttons */}

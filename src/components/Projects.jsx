@@ -51,8 +51,8 @@ const Projects = ({ visible }) => (
       {projectsData.map((project, index) => (
         <div key={index} className="bg-[#19142b] p-6 rounded-2xl shadow-lg border border-[#2f1860] hover:border-[#9c52fe] hover:scale-[1.02] transition duration-300">
           <div className="flex items-center gap-2 mb-3">
-            <FaServer className="text-purple-400 text-2xl" />
-            <span className="bg-purple-900 text-purple-300 text-xs px-3 py-1 rounded-full hover:bg-gradient-to-r from-blue-400 to-yellow-400 hover:text-black">
+            <FaServer className="text-[#02b8f0]  text-2xl" />
+            <span className=" text-white-100 text-xs px-3 py-1 rounded-full hover:bg-gradient-to-r from-blue-400 to-yellow-400 hover:text-black">
               FULL-STACK
             </span>
           </div>
@@ -76,7 +76,7 @@ const Projects = ({ visible }) => (
             <a href={project.codeLink} className="flex-1 bg-black text-white py-2 rounded-lg flex items-center justify-center text-sm hover:bg-gradient-to-r from-blue-400 to-yellow-400 hover:text-black">
               View Code
             </a>
-            <a href={project.liveLink} className="flex-1 ml-4 py-2 rounded-lg flex items-center justify-center text-sm transition-all duration-300 text-white hover:bg-gradient-to-r from-blue-400 to-yellow-400 hover:text-black">
+            <a href={project.liveLink} className="flex-1 ml-4 py-2 rounded-lg flex items-center justify-center border border-[#2f1860] p-4  text-sm transition-all duration-300 text-white hover:bg-gradient-to-r from-blue-400 to-yellow-400 hover:text-black">
               Live Demo
             </a>
           </div>

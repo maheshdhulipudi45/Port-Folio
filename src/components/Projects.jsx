@@ -101,8 +101,19 @@ const projectsData = [
     description:
       "Full-stack web application for reporting and tracking campus electrical issues. Built with MERN stack featuring JWT authentication, RESTful APIs, and MongoDB integration with responsive React.js UI.",
     techs: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT"],
-    codeLink: "#",
-    liveLink: "#",
+    codeLink: "https://github.com/maheshdhulipudi45/CampusFixPS.git",
+    liveLink: "https://github.com/maheshdhulipudi45/CampusFixPS.git",
+  },
+   {
+    icon: <FaFutbol className="text-[#02b8f0] text-2xl" />,
+    tag: "FRONTEND-REACTJS",
+    title: "SportsInfo",
+    subtitle: "Sports Updates Website",
+    description:
+      "Frontend application providing live scores, player statistics, and sports updates. Integrated third-party sports API for real-time match data with responsive design and advanced search & filter features.",
+    techs: ["React.js", "CSS3", "REST APIs", "Responsive Design"],
+    codeLink: "https://github.com/maheshdhulipudi45/SportsInfo.git",
+    liveLink: "https://sportsi-nfo.netlify.app",
   },
   {
     icon: <FaUtensils className="text-[#02b8f0] text-2xl" />,
@@ -112,20 +123,10 @@ const projectsData = [
     description:
       "A visually appealing and responsive restaurant website to showcase menus, enable online reservations, and provide contact information. Developed using modern frontend technologies.",
     techs: ["HTML", "CSS", "JavaScript"],
-    codeLink: "#",
+    codeLink: "https://github.com/maheshdhulipudi45/RestroPointWebsite.git",
     liveLink: "https://restro-point-website.vercel.app/",
   },
-  {
-    icon: <FaFutbol className="text-[#02b8f0] text-2xl" />,
-    tag: "API-INTEGRATED",
-    title: "SportsInfo",
-    subtitle: "Sports Updates Website",
-    description:
-      "Frontend application providing live scores, player statistics, and sports updates. Integrated third-party sports API for real-time match data with responsive design and advanced search & filter features.",
-    techs: ["React.js", "CSS3", "REST APIs", "Responsive Design"],
-    codeLink: "#",
-    liveLink: "#",
-  },
+ 
 ];
 
 const Projects = ({ visible }) => (

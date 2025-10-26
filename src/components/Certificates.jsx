@@ -73,6 +73,7 @@
 // export default Certificates;
 
 
+
 import React, { useState } from "react";
 import { FaAward, FaTimes } from "react-icons/fa";
 
@@ -102,12 +103,6 @@ const certificates = [
     image: "/ciscojs2.jpg", 
     description: "Mastered foundational JavaScript concepts necessary for web development and front-end programming.",
   },
-  {
-    title: "Web Dev Internship (ApexPlanet)",
-    issuer: "ApexPlanet Software Pvt. Ltd.",
-    image: "/Appex.jpg", 
-    description: "Completed a virtual internship specializing in Web Development using HTML, CSS, and JavaScript.",
-  },
 ];
 
 const Certificates = ({ visible = true }) => {
@@ -128,7 +123,8 @@ const Certificates = ({ visible = true }) => {
           Click on any card to view the full certificate image and details.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      {/* **** UPDATED GRID CLASSES: Changed lg:grid-cols-3 to lg:grid-cols-2 and reduced max-width **** */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-4xl mx-auto">
         {certificates.map((cert, index) => (
           // --- Certificate Card (Clickable with Thumbnail) ---
           <div 
@@ -161,7 +157,7 @@ const Certificates = ({ visible = true }) => {
       </div>
 
       {/* ---------------------------------------------------------------------------------- */}
-      {/* --- Modal Overlay (DECREASED SIZE) --- */}
+      {/* --- Modal Overlay (SMALLER SIZE) --- */}
       {/* ---------------------------------------------------------------------------------- */}
       {selectedCert && (
         <div 
@@ -169,7 +165,6 @@ const Certificates = ({ visible = true }) => {
           onClick={closeModal} 
         >
           <div 
-            // **** DECREASED WIDTH: Changed max-w-2xl to max-w-xl (approx 640px) ****
             className="relative bg-[#0d0d16] rounded-xl shadow-2xl p-6 max-w-xl w-full max-h-[90vh] transition-transform duration-300 transform scale-95 opacity-0 animate-scale-in"
             onClick={(e) => e.stopPropagation()} 
           >
@@ -185,7 +180,6 @@ const Certificates = ({ visible = true }) => {
             </h3>
             <p className="text-gray-400 mb-4 text-xs">Issued by: {selectedCert.issuer}</p>
             
-            {/* **** DECREASED HEIGHT: Changed max-h-[60vh] to max-h-[50vh] **** */}
             <div className="overflow-y-auto max-h-[50vh] rounded-lg border border-white/10">
               <img 
                 src={selectedCert.image} 

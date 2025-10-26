@@ -4,7 +4,7 @@ const experienceData = [
   {
     title: "Full Stack Developer Intern",
     company: "Technical Hub",
-    duration: "Jan 2024 - Present",
+    duration: "June 2025 - July 2025",
     description:
       "Developed and maintained full-stack web applications using MERN stack. Collaborated with a team of developers on projects, including an electrical issue management system, and implemented RESTful APIs and real-time features.",
   },
@@ -20,7 +20,7 @@ const Experience = ({ visible }) => (
     {/* ==================== Heading ==================== */}
     <div className="text-center mb-16 mt-7">
       <h2 className="text-4xl md:text-5xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
-        Internship
+        Experience
       </h2>
       <p className="mt-3 text-gray-400 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
         Hands-on experience in building and deploying real-world applications.

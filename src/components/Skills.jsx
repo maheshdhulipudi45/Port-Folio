@@ -5,12 +5,12 @@ const skills = [
   { 
     title: "Languages", 
     icon: FaCode, 
-    techs: ["Python", "Java", "JavaScript", "HTML", "CSS"] 
+    techs: ["Java", "JavaScript", "HTML", "CSS"] 
   },
   { 
     title: "Frontend", 
     icon: FaGlobe, 
-    techs: ["React.js", "HTML5", "CSS3", "Responsive Design", "REST APIs"] 
+    techs: ["React.js", "HTML5", "CSS3", "TAILWIND CSS", "REST APIs"] 
   },
   { 
     title: "Backend", 
